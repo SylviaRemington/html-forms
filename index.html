@@ -30,25 +30,36 @@
         <h1>Contact Form</h1>
         <form action="/the-form-submits-here" method="POST">
             <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" />
+                <label for="name">Name:</label>
+                <input type="text" id="name" />
             </div>
 
             <br>
 
             <div>
-            <label for="email">Email:</label>
-            <input type="email" id="email" />
+                <label for="email">Email:</label>
+                <input type="email" id="email" />
             </div>
 
             <br>
 
             <div>
-            <label for="message">Message:</label>
-            <!-- <input type="text" id="message" /> -->
-            <!-- Replacing input with textarea -->
-            <textarea id="message"></textarea>
+                <label for="message">Message:</label>
+                <!-- <input type="text" id="message" /> -->
+                <!-- Replacing input with textarea -->
+                <textarea id="message"></textarea>
             </div>
+
+            <br>
+
+            <!-- We need a submit button. -->
+             <!-- When a <button type="submit"> inside a <form> element 
+                is clicked, it will submit the form data to the 
+                URL designated by the form’s action attribute. In this 
+                example, "/the-form-submits-here" is a placeholder URL; 
+                therefore, clicking submit doesn’t submit the data anywhere. -->
+             <button type="submit">Submit</button>
+
 </form>
 
 
