@@ -8,25 +8,36 @@
 </head>
 
 <body>
-    <h1>Contact Form</h1>
+    <!-- <h1>Contact Form</h1> -->
 
     <!-- The form elemment acts as a wrapper element for various other elements in the form
      which either offer structure to the form or work as controls for the form. -->
-    <form action="/the-form-submits-here" method="POST">
+     <!-- <form action="/the-form-submits-here" method="POST"> -->
+
         <!-- Form controls go here -->
-        
         <!-- Input element is the primary way to create interfaces for interacting wtih the user -->
          <!-- FOR EXAMPLE: collecting the users name -->
-        <input type="text" /> 
+        <!-- <input type="text" />  -->
         <!-- text input allows users to enter a single line of text -->
        
          <!-- FOR EXAMPLE: collecting the users email -->
-        <input type="email" />
+        <!-- <input type="email" /> -->
          <!-- has a built-in text validation & ensures user enter a valid email format -->
 
           <!-- FOR EXAMPLE: collecting the message itself from the user -->
-        <input type="text" />
-        
+        <!-- <input type="text" /> -->
+
+        <h1>Contact Form</h1>
+        <form action="/the-form-submits-here" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+            <label for="email">Email:</label>
+            <input type="email" id="email" />
+            <label for="message">Message:</label>
+            <input type="text" id="message" />
+</form>
+
+
     </form>
 </body>
 
