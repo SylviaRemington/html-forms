@@ -48,7 +48,7 @@
                 <!-- <input type="text" id="message" /> -->
                 <!-- Replacing input with textarea -->
                 <textarea id="message" required></textarea>
-                <!-- REQUIRED PART FOR FORM VALIDATION:
+                <!-- "REQUIRED" PART FOR FORM VALIDATION:
                  Client-side form validation. When implemented, the browser performs 
                  tests before the form data is sent to the server. If any of those tests 
                  fail, the user is informed of what went wrong and what action they should 
@@ -58,6 +58,11 @@
                   in (has a value) before the form can be submitted. It’s a Boolean, so we don’t 
                   need to use required="true". Including the attribute inside the input tag is sufficient
                   -->
+
+                  <!-- Also, another part of validation is called constraint validation:
+                    which is accomplished by specifying the type of an input (for example, 
+                    <input type="email" />) and through other validation-related attributes.
+                    Another commonly used attribute is required.-->
             </div>
 
             <br>
