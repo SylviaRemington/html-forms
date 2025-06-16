@@ -45,6 +45,19 @@
 
             <br>
 
+              <!-- Add the below code -->
+            <div>
+                <label for="category">I'm contacting about:</label>
+                <select id="category">
+                <option value="work">A job opportunity</option>
+                <option value="question">A question</option>
+                <option value="misc">Miscellaneous</option>
+                </select>
+            </div>
+            <!-- Add the above code -->
+
+            <br>
+
             <div>
                 <label for="message">Message:</label>
                 <!-- <input type="text" id="message" /> -->
@@ -85,6 +98,8 @@
              <button type="submit">Submit</button>
 
              
+
+             
              <!-- BELOW IS ALL THE FULL CODE ALL TOGETHER:
              <h1>Contact Form</h1>
             <form action="/the-form-submits-here" method="POST">
@@ -102,6 +117,39 @@
                 <label for="message">Message:</label>
                 <div><small>required</small></div>
                 <textarea id="message"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+            </form> -->
+
+
+
+            <!-- BELOW IS THE FULL CODE FOR DROPDOWN MENUS:
+            <h1>Contact Form</h1>
+            <form action="/the-form-submits-here" method="POST">
+            <div>
+                <label for="name">Name:</label>
+                <div><small>required</small></div>
+                <input type="text" id="name" required />
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <div><small>required</small></div>
+                <input type="email" id="email" required />
+            </div>
+            Add the below code -->
+            <!-- <div>
+                <label for="category">I'm contacting about:</label>
+                <select id="category">
+                <option value="work">A job opportunity</option>
+                <option value="question">A question</option>
+                <option value="misc">Miscellaneous</option>
+                </select>
+            </div> -->
+            <!-- Add the above code -->
+            <!-- <div>
+                <label for="message">Message:</label>
+                <div><small>required</small></div>
+                <textarea id="message" required maxLength="100"></textarea>
             </div>
             <button type="submit">Submit</button>
             </form> -->
