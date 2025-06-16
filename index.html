@@ -31,6 +31,7 @@
         <form action="/the-form-submits-here" method="POST">
             <div>
                 <label for="name">Name:</label>
+                <div><small>(required)</small></div>
                 <input type="text" id="name" required />
             </div>
 
@@ -38,6 +39,7 @@
 
             <div>
                 <label for="email">Email:</label>
+                <div><small>(required)</small></div>
                 <input type="email" id="email" required />
             </div>
 
@@ -47,6 +49,7 @@
                 <label for="message">Message:</label>
                 <!-- <input type="text" id="message" /> -->
                 <!-- Replacing input with textarea -->
+                 <div><small>(required)</small></div>
                 <textarea id="message" required maxLength="100"></textarea>
                 <!-- maxLength is 100 characters with maxLength attribute -->
                 <!-- "REQUIRED" PART FOR FORM VALIDATION:
