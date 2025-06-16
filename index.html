@@ -304,6 +304,28 @@
             </div>
             </form>
 
+            <br>
+            <br>
+            <!-- DATALIST ELEMENT BELOW -->
+             <!-- the <datalist> element is more like an associated list of possible options for an <input>, where <select> is a dropdown list of options in a form.
+
+            To better understand what makes them unique, you can think about the <datalist> element as a combination of the <input> and <select> elements. 
+            A <datalist> is a set of predefined options associated with a text input, allowing the user to select from the options or submit alternative text.
+
+            One benefit is that the <datalist> element also provides an auto-complete feature. As the user starts typing, any available options matching their text will appear as suggestions.-->
+             <label for="pet-choice">Choose a pet:</label>
+            <input list="pets" id="pet-choice" name="pet-choice" />
+
+            <datalist id="pets">
+            <option value="dog"></option>
+            <option value="cat"></option>
+            <option value="fish"></option>
+            <option value="bird"></option>
+            <option value="reptile"></option>
+            <option value="rabbit"></option>
+            </datalist>
+
+
 
             <br>
             <br>
