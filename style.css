@@ -2,3 +2,17 @@ input:valid {
   border: green 1px solid;
   background-color: lightgreen;
 }
+
+/* Once all of the necessary conditions are met, the input becomes valid. You can test this out in the browser now - once you hit six characters in either field, the border and background should change, indicating a valid entry.
+Remember, all of this validation is happening on the client side. The :valid selector turns the input border green when the user’s input matches the required pattern. However, the password entry won’t be verified until that data gets to the server and can be matched against the correct password held there. */
+
+
+
+/* Validating with a regular expression
+We can use the pattern attribute and a regular expression to create more strict requirements for validity. Check out the pattern documentation on MDN for more details on implementing this type of validation.
+
+Accessibility Concerns
+Typically, invalid inputs are styled red, while valid inputs are styled green.
+For people with certain types of color blindness, this can present accessibility issues. As such, accompanying text or icons are typically favored over simply using color to note the validity of a form.
+This can be handled with JavaScript or CSS by adding an image background of an icon to the input background. */
+
