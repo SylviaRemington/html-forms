@@ -99,7 +99,7 @@
 
              
 
-             
+
              <!-- BELOW IS ALL THE FULL CODE ALL TOGETHER:
              <h1>Contact Form</h1>
             <form action="/the-form-submits-here" method="POST">
@@ -153,6 +153,26 @@
             </div>
             <button type="submit">Submit</button>
             </form> -->
+
+
+
+            <!-- More HTML above -->
+            <!-- These help users more readily understand the purpose of each section in a form. -->
+            <form action="/the-form-submits-here" method="POST">
+            <fieldset>
+                <legend>Contact information</legend>
+                <div>
+                <label for="name">Name:</label>
+                <div><small>required</small></div>
+                <input type="text" id="name" required />
+                </div>
+                <div>
+                <label for="email">Email:</label>
+                <div><small>required</small></div>
+                <input type="email" id="email" required />
+                </div>
+            </fieldset>
+            <!-- More HTML below -->
 
 
 </form>
